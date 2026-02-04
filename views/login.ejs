@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Placement Portal</title>
+
+  <link rel="stylesheet" href="/stylesheets/login.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-bg">
+
+    <!-- Welcome Text (NOT removed) -->
+    <div class="welcome-text">
+      <h1>Welcome Back 👋</h1>
+      <p>
+        Welcome to your profile.  
+        Continue preparing for placements with confidence.
+      </p>
+    </div>
+
+    <!-- Login Card -->
+    <div class="auth-card">
+      <h2>Login</h2>
+      <p class="subtitle">Access your placement dashboard</p>
+
+      <form action="/users/login" method="POST">
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="password" name="password" placeholder="Password" required>
+
+        <button type="submit">Login</button>
+      </form>
+
+      <p class="switch">
+        Don’t have an account?
+        <a href="/users/signup">Register</a>
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>

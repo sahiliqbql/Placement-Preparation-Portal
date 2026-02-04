@@ -1,0 +1,119 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #0f766e;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.no-questions {
+  text-align: center;
+  font-size: 18px;
+  color: #6b7280;
+}
+
+/* Grid for questions */
+.questions-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Question card */
+.question-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  /* transition: transform 0.2s, box-shadow 0.2s; */
+}
+
+.question-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  color: #111827;
+}
+
+/* .question-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+} */
+
+/* Links inside card */
+.links a {
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.links .leetcode {
+  background-color: #f3f4f6;
+  color: #2563eb;
+}
+
+.links .leetcode:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+.links .gfg {
+  background-color: #f3f4f6;
+  color: #ea580c;
+}
+
+.links .gfg:hover {
+  background-color: #ea580c;
+  color: white;
+}
+
+.links .codeforces {
+  background-color: #f3f4f6;
+  color: #1e40af;
+}
+
+.links .codeforces:hover {
+  background-color: #1e40af;
+  color: white;
+}
+
+/* Back link */
+.back-link {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: #0f766e;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.back-link a:hover {
+  color: #065f46;
+}
+
+
+/* Coming soon text */
+.coming-soon-text {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #64748b;
+  text-align: center;
+}

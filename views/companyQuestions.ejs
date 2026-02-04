@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= company %> Questions</title>
+  <link rel="stylesheet" href="/stylesheets/header.css">
+  <link rel="stylesheet" href="/stylesheets/companyQuestions.css">
+</head>
+<body>
+  <!-- Global Header -->
+  <%- include('header') %>
+
+  <div class="container">
+    <h1>💡 <%= company.toUpperCase() %> Interview Questions</h1>
+
+    <% if (questions.length === 0) { %>
+      <p class="no-questions">No questions added yet.</p>
+    <% } %>
+
+    <div class="questions-grid">
+      <% questions.forEach(q => { %>
+        <div class="question-card">
+          <h3><%= q.title %></h3>
+          <div class="links">
+            <% if (q.leetcode) { %>
+              <a href="<%= q.leetcode %>" target="_blank" class="leetcode">LeetCode</a>
+            <% } %>
+            <% if (q.gfg) { %>
+              <a href="<%= q.gfg %>" target="_blank" class="gfg">GFG</a>
+            <% } %>
+            <% if (q.codeforces) { %>
+              <a href="<%= q.codeforces %>" target="_blank" class="codeforces">Codeforces</a>
+            <% } %>
+          </div>
+        </div>
+      <% }) %>
+      <div class="coming-soon-text">More questions coming soon 🚀</div>
+    </div>
+
+    <div class="back-link">
+      <a href="/companies">⬅ Back to Companies</a>
+    </div>
+  </div>
+</body>
+</html>

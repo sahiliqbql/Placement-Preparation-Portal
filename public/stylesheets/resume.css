@@ -1,0 +1,82 @@
+/* Reset some default styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f8ff;
+  color: #111827;
+}
+
+.header{
+    margin-bottom: 0px !important;
+}
+
+/* Banner */
+.banner {
+  background: linear-gradient(90deg,#0f766e,#06b6d4);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 20px;
+}
+
+/* Card */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.card button, .card input[type="file"] {
+  margin-top: 15px;
+  padding: 8px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card button {
+  background: #0f766e;
+  color: white;
+}
+
+.card button:hover {
+  background: #06b6d4;
+}
+
+input[type="file"] {
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #6b7280;
+  background: #e5f4f4;
+}
+
+

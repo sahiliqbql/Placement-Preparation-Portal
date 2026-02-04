@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register | Placement Portal</title>
+
+  <link rel="stylesheet" href="/stylesheets/signup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-bg">
+
+    <div class="welcome-text">
+      <h1>Welcome to Placement Portal 🚀</h1>
+      <p>
+        Create your profile and start preparing  
+        for your dream placement today.
+      </p>
+    </div>
+
+    <div class="auth-card">
+      <h2>Create Account</h2>
+      <p class="subtitle">Register to get started</p>
+
+      <form action="/users/signup" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="password" name="password" placeholder="Password" required>
+
+        <button type="submit">Register</button>
+      </form>
+
+      <p class="switch">
+        Already registered?
+        <a href="/users/login">Login</a>
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>

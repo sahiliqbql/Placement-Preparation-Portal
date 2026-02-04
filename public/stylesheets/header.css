@@ -1,0 +1,30 @@
+
+/* HEADER  */
+
+.header {
+  height: 55px; /* smaller */
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+  backdrop-filter: blur(8px);
+  margin-bottom: 30px;
+}
+
+.logo a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f766e;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logout {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ff0000ac;
+  text-decoration: none;
+}
+

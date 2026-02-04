@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Companies</title>
+  <link rel="stylesheet" href="/stylesheets/header.css">
+  <link rel="stylesheet" href="/stylesheets/companies.css">
+</head>
+<body>
+  <!-- Global Header -->
+  <%- include('header') %>
+
+  <div class="container">
+    <h1>🏢 Company-wise Interview Questions</h1>
+
+    <div class="company-grid">
+      <% companies.forEach(c => { %>
+        <a href="/companies/<%= c %>" class="company-card">
+          <span><%= c %></span>
+        </a>
+      <% }) %>
+      <div class="coming-soon-text">More topics coming soon 🚀</div>
+    </div>
+
+    <div class="back-link">
+      <a href="/dashboard">⬅ Back to Dashboard</a>
+    </div>
+  </div>
+</body>
+</html>

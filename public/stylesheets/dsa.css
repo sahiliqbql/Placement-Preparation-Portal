@@ -1,0 +1,181 @@
+/* ===== BASIC PAGE STYLE ===== */
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ecfeff, #f0fdfa);
+  margin: 0;
+  padding: 30px 20px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+}
+
+.dsa-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* HEADER */
+.header {
+  height: 55px; /* smaller */
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(8px);
+  margin-bottom: 30px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f766e;
+  font-family: "Poppins", sans-serif;
+}
+
+.logout {
+  font-size: 13px;
+  font-weight: bold;
+  color: #ff0000ac;
+  text-decoration: none;
+}
+
+/* ===== PAGE INTRO ===== */
+.page-intro {
+  margin-bottom: 18px;
+}
+
+.page-intro h1 {
+  font-size: 26px;
+  color: #0f766e;
+  margin-bottom: 6px;
+}
+
+.page-intro p {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 28px;
+}
+
+/* ===== ALL DSA CODES BLOCK ===== */
+.header-block {
+  background: linear-gradient(135deg, #0f766e, #22d3ee);
+  color: white;
+  padding: 0px 22px;
+  border-radius: 12px;
+  margin-bottom: 28px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.block-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-row h2 {
+  margin-bottom: 4px;
+  /* margin-top: 10px; */
+}
+
+.block-row p {
+  font-size: 13px;
+  color: #e0e7ff;
+}
+
+/* GitHub button */
+.github-link {
+  background: white;
+  color: #0f766e;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 13px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== DSA TOPICS SECTION ===== */
+.topics-block {
+  margin-bottom: 10px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  padding-bottom: 10px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+/* Topics heading */
+.topics-header {
+  background: linear-gradient(135deg, #0f766e, #22d3ee);
+  color: white;
+  padding: 1px 22px;
+  border-radius: 12px 12px 0px 0px;
+  margin-bottom: 0;
+}
+
+.topics-header p {
+  font-size: 13px;
+  color: #e0e7ff;
+}
+
+.topics-header h2 {
+  padding: 0px 0px;
+}
+
+/* ===== TOPIC ROWS ===== */
+
+.topic-row {
+  background: linear-gradient(135deg, #9ee5ff42, #e9fbf7);
+  padding: 15px 25px; /* small height */
+  margin-bottom: 1px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* text */
+.topic-row h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.topic-row p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: #555;
+}
+
+/* button */
+.topic-row a {
+  text-decoration: none;
+  background: #42c4b9;
+  color: white;
+  padding: 4px 15px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+/* cooming-soon */
+.cooming-soon{
+  font-size: 13px;
+  color: #64748bcf;
+}
+
+/* ===== BACK LINK ===== */
+.back-link {
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 14px;
+  color: #475569;
+  text-decoration: none;
+}
+
+/* Coming soon text */
+.coming-soon-text {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #64748b;
+  text-align: center;
+}

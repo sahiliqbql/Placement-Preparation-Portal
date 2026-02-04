@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.page-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f766e, #22d3ee, #60a5fa);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 40px;
+}
+
+/* Welcome section */
+.welcome-text {
+  max-width: 380px;
+  color: white;
+}
+
+.welcome-text h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.welcome-text p {
+  font-size: 15px;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+/* Card */
+.auth-card {
+  width: 360px;
+  background: white;
+  padding: 35px 30px;
+  border-radius: 18px;
+  box-shadow: 0 25px 50px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+.auth-card h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 22px;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+}
+
+.auth-card input:focus {
+  outline: none;
+  border-color: #0f766e;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #0f766e, #22c55e);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.switch {
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.switch a {
+  color: #0f766e;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .page-bg {
+    flex-direction: column;
+    text-align: center;
+  }
+}

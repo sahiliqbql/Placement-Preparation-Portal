@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Manager</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/stylesheets/resume.css">
+</head>
+<body>
+
+  <!-- Include Header -->
+  <link rel="stylesheet" href="/stylesheets/header.css">
+  <%- include('header') %>
+
+  <!-- Banner Section -->
+  <div class="banner">
+    <h2>Resume Manager 📄</h2>
+    <p>Upload your resume or view your existing resume for placements.</p>
+  </div>
+
+  <!-- Cards Section -->
+  <div class="card-container">
+
+    <!-- View Resume Card -->
+    <div class="card">
+      <h3>Your Resume</h3>
+      <% if (resumePath) { %>
+        <p>Resume uploaded successfully! ✅</p>
+        <a href="/<%= resumePath %>" target="_blank">
+          <button>View Resume</button>
+        </a>
+      <% } else { %>
+        <p>No resume uploaded yet. ⬇️ Upload your resume below</p>
+      <% } %>
+    </div>
+
+    <!-- Upload Resume Card -->
+    <div class="card">
+      <h3>Upload Resume</h3>
+      <p>Upload your latest resume in PDF format.</p>
+      <form action="/resume" method="POST" enctype="multipart/form-data">
+        <input type="file" name="resume" accept="application/pdf" required>
+        <br>
+        <button type="submit">Upload</button>
+      </form>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 Placement Preparation Portal | Built with ❤️ by Sahil
+  </footer>
+
+</body>
+</html>

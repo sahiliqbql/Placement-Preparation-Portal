@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dashboard | Placement Portal</title>
+
+    <link rel="stylesheet" href="/stylesheets/dashboard.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo">Placement Portal</div>
+
+      <a href="/users/logout" class="logout" title="Logout"> Logout </a>
+    </header>
+
+    <!-- HERO / WELCOME -->
+    <section class="hero">
+      <h1>Welcome to your dashboard 👋</h1>
+      <!-- Later you can make Sahil dynamic using EJS -->
+      <p>
+        This is your personal space to prepare for placements, practice smartly,
+        and stay organized.
+      </p>
+    </section>
+
+    <!-- MAIN DASHBOARD -->
+    <section class="dashboard">
+      <a href="/dsa" class="card">
+        <div class="icon">📘</div>
+        <h3>DSA Practice</h3>
+        <p>Practice data structures and algorithms topic-wise.</p>
+      </a>
+
+      <a href="/companies" class="card">
+        <div class="icon">🏢</div>
+        <h3>Company Questions</h3>
+        <p>Explore interview questions asked by top companies.</p>
+      </a>
+
+      <a href="/resume" class="card">
+        <div class="icon">📄</div>
+        <h3>Resume Manager</h3>
+        <p>Upload and manage your resume for placements.</p>
+      </a>
+    </section>
+
+    <!-- UPCOMING FEATURES -->
+    <section class="coming-soon">
+      <p>✨ More features coming soon…</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-main">
+      <div class="footer-top">
+        © 2026 Placement Preparation Portal | Built with ❤️ by Sahil
+      </div>
+
+      <div class="footer-content">
+        <div class="footer-col">
+          <h3>Placement Preparation Portal</h3>
+          <p>
+            A student-focused platform designed to help you prepare smarter
+            <br />
+            for placements with DSA practice, interview questions, and
+            <br />
+            upcoming features.
+          </p>
+
+          <div class="footer-contact">
+            <span>Contact</span>
+            <p>sahiliqbal874@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="footer-col footer-legal">
+          <h4>Legal</h4>
+          <span>Terms of Service</span>
+          <span>Privacy Policy</span>
+          <span>Cookie Policy</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

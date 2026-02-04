@@ -1,0 +1,122 @@
+/* ================================
+   ARRAY PAGE – DSA
+   ================================ */
+
+/* ---------- Page Base ---------- */
+body {
+  background-color: #f8fafc;
+  color: #1f2937;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- GitHub Code Link Block ---------- */
+.code-link-box {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 14px 18px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #ecfeff;
+  border: 1px solid #99f6e4;
+  border-radius: 10px;
+
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f766e;
+}
+
+.code-btn {
+  background-color: #0f766e;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.code-btn:hover {
+  background-color: #115e59;
+}
+
+/* ---------- Main Container ---------- */
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* ---------- Content Sections ---------- */
+.section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.section h2 {
+  color: #0f766e;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.section p {
+  font-size: 15px;
+}
+
+/* ---------- Lists ---------- */
+.section ul {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.section ul li {
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* ---------- Code Box ---------- */
+.code-box {
+  background-color: #0f172a;
+  color: #e5e7eb;
+
+  padding: 15px;
+  margin: 10px 0;
+
+  border-radius: 8px;
+  font-size: 14px;
+
+  overflow-x: auto;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 14px;
+  color: #475569;
+}
+
+.nav-links {
+  margin-bottom: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+  margin: 0 10px;
+  color: #0f766e;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
